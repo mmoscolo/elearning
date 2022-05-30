@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500&display=swap');
+
+h1, h2, h3, h5 {
+    font-family: 'Quicksand', sans-serif;
+    color: #f7f1ed;
+    font-weight: 700;
+}
+
+p {
+    font-family: 'Quicksand', sans-serif;
+}
+
+button {
+    border-width: 0;
+    font-family: 'Quicksand', sans-serif;
+    background-color: #f7f1ed;
+    padding: 9px;
+    min-width: 100px;
+    font-size: 1rem;
+    color: #2f365f;
+    
+}
+
+button:hover {
+    background-color: #febeb0;
+    color: #f7f1ed;
+}
+
+a {
+   text-decoration: none; 
+   color: #2f365f;
+
+}
+
+a:hover {
+    color: #f7f1ed;
+}
+
+input {
+    border: 0;
+    padding: 0.8rem;
+    width: 400px;
+}
+
+label {
+    font-family: 'Quicksand', sans-serif;
+
+}
+
+.form-container {
+}
+
+.form-container div {
+    margin: 1rem;
+
+}
+
+.home-icon {
+    color: #f7f1ed;
+
+}
+
+.main-container {
+    text-align: center;
+    background-color: #2f365f;
+    margin: 2rem;
+    padding: 1rem;
+}
+
+.tipo-de-curso h2 {
+    text-align: left;
+    text-decoration: underline;
+}
+
+.curso {
+    padding: 1.5rem;
+    margin-right: 2rem;
+    background-color: #f7f1ed;
+    max-width: 200px;
+    min-width: 200px;
+}
+
+.contenedor-curso {
+    display: flex;
+}
+
+.zoom {
+    transition: transform .2s;
+    border: 1px solid #2f365f;
+}
+
+.zoom:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    border: none;
+  }
+
+.title-box {
+    color: #2f365f !important;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .contenedor-curso {
+        display: inline-block;
+    }
+
+    .curso {
+        margin-right: 0;
+        margin-top: 1rem;
+    }
+}
